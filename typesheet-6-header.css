@@ -1,0 +1,99 @@
+body {
+    background-color: #151515;
+    position: relative;
+    height: 3000px;
+}
+
+.navbar {
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #151515;
+    flex-direction: row;
+    border-bottom: #ead2ab 2px solid;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.section-symbol {
+    display: flex;
+    padding-right: 40px;
+    padding-left: 30px;
+    border-right: #ead2ab solid 2px;
+    border-left: #ead2ab solid 2px;
+    height: 100px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.section-about {
+    display: flex;
+    border-right: #ead2ab solid 2px;
+    border-left: #ead2ab solid 2px;
+    align-items: center;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.site-tag-1 {
+    margin: 0;
+    display: flex;
+    font-family: Bebas Neue;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: 800;
+    color: #ead2ab;
+    text-decoration: underline;
+}
+
+.site-tag-2 {
+    margin: 0;
+    display: flex;
+    font-family: Fuzzy Bubbles;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: unset;
+    color: #ead2ab;
+}
+
+.youtube-logo, .twitter-logo, .instagram-logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    background-color: #ead2ab;
+    border: 2px solid #ead2ab;
+    border-radius: 60%;
+    transition: background-color 0.5s ease;
+}
+
+.youtube-logo:hover {
+    background-color: #151515;
+}
+
+.twitter-logo:hover {
+    background-color: #151515;
+}
+
+.instagram-logo:hover {
+    background-color: #151515;
+}
+
+.instagram-logo {
+    margin-right: 40px;
+}
+
